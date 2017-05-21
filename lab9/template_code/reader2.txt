@@ -1,0 +1,15 @@
+sensor id = 51 - temperature = 19.9961 - timestamp = 1462282226
+sensor id = 53 - temperature = 19.9961 - timestamp = 1462282226
+sensor id = 52 - temperature = 19.9961 - timestamp = 1462282226
+sensor id = 51 - temperature = 19.8574 - timestamp = 1462282227
+sensor id = 51 - temperature = 19.6434 - timestamp = 1462282228
+sensor id = 52 - temperature = 19.8574 - timestamp = 1462282228
+sensor id = 51 - temperature = 19.4451 - timestamp = 1462282229
+sensor id = 53 - temperature = 19.8574 - timestamp = 1462282229
+sensor id = 51 - temperature = 19.3998 - timestamp = 1462282230
+sensor id = 52 - temperature = 19.6434 - timestamp = 1462282230
+sensor id = 53 - temperature = 19.6434 - timestamp = 1462282232
+sensor id = 52 - temperature = 19.4451 - timestamp = 1462282232
+sensor id = 52 - temperature = 19.3998 - timestamp = 1462282234
+sensor id = 53 - temperature = 19.4451 - timestamp = 1462282235
+sensor id = 53 - temperature = 19.3998 - timestamp = 1462282238

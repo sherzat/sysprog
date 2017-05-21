@@ -1,0 +1,180 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CHAR_IP_ADDR_LENGTH	lib/tcpsock.c	45;"	d	file:
+DEBUG_PRINTF	lib/dplist.c	13;"	d	file:
+DEBUG_PRINTF	lib/dplist.c	7;"	d	file:
+DPLIST_ERR_HANDLER	lib/dplist.c	17;"	d	file:
+DPLIST_INVALID_ERROR	lib/dplist.h	12;"	d
+DPLIST_MEMORY_ERROR	lib/dplist.h	10;"	d
+DPLIST_NO_ERROR	lib/dplist.h	9;"	d
+FILE_ERROR	connmgr.c	29;"	d	file:
+INITIAL_TEMPERATURE	sensor_node.c	50;"	d	file:
+LOG_CLOSE	sensor_node.c	42;"	d	file:
+LOG_CLOSE	sensor_node.c	47;"	d	file:
+LOG_FILE	sensor_node.c	24;"	d	file:
+LOG_OPEN	sensor_node.c	26;"	d	file:
+LOG_OPEN	sensor_node.c	45;"	d	file:
+LOG_PRINTF	sensor_node.c	36;"	d	file:
+LOG_PRINTF	sensor_node.c	46;"	d	file:
+LOOPS	sensor_node.c	17;"	d	file:
+MAGIC_COOKIE	lib/tcpsock.c	43;"	d	file:
+MAX_CONN	connmgr.c	18;"	d	file:
+MAX_PENDING	lib/tcpsock.h	15;"	d
+MAX_PORT	lib/tcpsock.h	6;"	d
+MIN_PORT	lib/tcpsock.h	5;"	d
+PORT	connmgr.c	17;"	d	file:
+PROTOCOL	lib/tcpsock.c	48;"	d	file:
+PROTOCOLFAMILY	lib/tcpsock.c	46;"	d	file:
+TCP_ADDRESS_ERROR	lib/tcpsock.h	10;"	d
+TCP_CONNECTION_CLOSED	lib/tcpsock.h	12;"	d
+TCP_DEBUG_PRINTF	lib/tcpsock.c	20;"	d	file:
+TCP_DEBUG_PRINTF	lib/tcpsock.c	29;"	d	file:
+TCP_ERR_HANDLER	lib/tcpsock.c	33;"	d	file:
+TCP_MEMORY_ERROR	lib/tcpsock.h	13;"	d
+TCP_NO_ERROR	lib/tcpsock.h	8;"	d
+TCP_SOCKET_ERROR	lib/tcpsock.h	9;"	d
+TCP_SOCKOP_ERROR	lib/tcpsock.h	11;"	d
+TEMP_DEV	sensor_node.c	51;"	d	file:
+TYPE	lib/tcpsock.c	47;"	d	file:
+UPDATE	sensor_node.c	15;"	d	file:
+UPDATE	sensor_node.c	18;"	d	file:
+_CONFIG_H_	config.h	2;"	d
+_CONNMGR_H_	connmgr.h	2;"	d
+_DPLIST_H_	lib/dplist.h	2;"	d
+_GNU_SOURCE	lib/tcpsock.c	2;"	d	file:
+__TCPSOCK_H__	lib/tcpsock.h	3;"	d
+__anon1::id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+__anon1::ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+__anon1::value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+bool	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	t	typeref:enum:__anon2
+build_select_readfds	connmgr.c	/^void build_select_readfds()$/;"	f
+client	connmgr.c	/^	tcpsock_t *client;$/;"	m	struct:connection	file:	access:public
+client	connmgr.c	/^tcpsock_t * server, * client;$/;"	v
+conn_list	connmgr.c	/^dplist_t *conn_list = NULL;$/;"	v
+connection	connmgr.c	/^struct connection{$/;"	s	file:
+connection	connmgr.c	/^} connection;$/;"	v	typeref:struct:connection
+connection::client	connmgr.c	/^	tcpsock_t *client;$/;"	m	struct:connection	file:	access:public
+connection::timestamp	connmgr.c	/^	time_t timestamp;$/;"	m	struct:connection	file:	access:public
+connection_t	connmgr.h	/^typedef struct connection connection_t;$/;"	t	typeref:struct:connection
+connmgr_free	connmgr.c	/^void connmgr_free()$/;"	f
+connmgr_free	connmgr.h	/^void connmgr_free();$/;"	p	signature:()
+connmgr_listen	connmgr.c	/^void connmgr_listen(int port_number)$/;"	f	signature:(int port_number)
+connmgr_listen	connmgr.h	/^void connmgr_listen(int port_number);$/;"	p	signature:(int port_number)
+cookie	lib/tcpsock.c	/^  long cookie;		\/\/ if the socket is bound, cookie should be equal to MAGIC_COOKIE$/;"	m	struct:tcpsock	file:	access:public
+dpl_create	lib/dplist.c	/^dplist_t *dpl_create (\/\/ callback functions$/;"	f	signature:( void * (*element_copy)(void * src_element), void (*element_free)(void ** element), int (*element_compare)(void * x, void * y) )
+dpl_create	lib/dplist.h	/^dplist_t * dpl_create (\/\/ callback functions$/;"	p	signature:( void * (*element_copy)(void * element), void (*element_free)(void ** element), int (*element_compare)(void * x, void * y) )
+dpl_free	lib/dplist.c	/^void dpl_free(dplist_t ** list)$/;"	f	signature:(dplist_t ** list)
+dpl_free	lib/dplist.h	/^void dpl_free(dplist_t ** list);$/;"	p	signature:(dplist_t ** list)
+dpl_get_element_at_index	lib/dplist.c	/^void * dpl_get_element_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_element_at_index	lib/dplist.h	/^void * dpl_get_element_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_get_element_at_reference	lib/dplist.c	/^void * dpl_get_element_at_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_element_at_reference	lib/dplist.h	/^void * dpl_get_element_at_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_first_reference	lib/dplist.c	/^dplist_node_t * dpl_get_first_reference( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_get_first_reference	lib/dplist.h	/^dplist_node_t * dpl_get_first_reference( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_get_index_of_element	lib/dplist.c	/^int dpl_get_index_of_element( dplist_t * list, void * element )$/;"	f	signature:( dplist_t * list, void * element )
+dpl_get_index_of_element	lib/dplist.h	/^int dpl_get_index_of_element( dplist_t * list, void * element );$/;"	p	signature:( dplist_t * list, void * element )
+dpl_get_index_of_reference	lib/dplist.c	/^int dpl_get_index_of_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_index_of_reference	lib/dplist.h	/^int dpl_get_index_of_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_last_reference	lib/dplist.c	/^dplist_node_t * dpl_get_last_reference( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_get_last_reference	lib/dplist.h	/^dplist_node_t * dpl_get_last_reference( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_get_next_reference	lib/dplist.c	/^dplist_node_t * dpl_get_next_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_next_reference	lib/dplist.h	/^dplist_node_t * dpl_get_next_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_previous_reference	lib/dplist.c	/^dplist_node_t * dpl_get_previous_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_previous_reference	lib/dplist.h	/^dplist_node_t * dpl_get_previous_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_reference_at_index	lib/dplist.c	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_reference_at_index	lib/dplist.h	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_get_reference_of_element	lib/dplist.c	/^dplist_node_t * dpl_get_reference_of_element( dplist_t * list, void * element )$/;"	f	signature:( dplist_t * list, void * element )
+dpl_get_reference_of_element	lib/dplist.h	/^dplist_node_t * dpl_get_reference_of_element( dplist_t * list, void * element );$/;"	p	signature:( dplist_t * list, void * element )
+dpl_insert_at_index	lib/dplist.c	/^dplist_t * dpl_insert_at_index(dplist_t * list, void * element, int index, bool insert_copy)$/;"	f	signature:(dplist_t * list, void * element, int index, bool insert_copy)
+dpl_insert_at_index	lib/dplist.h	/^dplist_t * dpl_insert_at_index(dplist_t * list, void * element, int index, bool insert_copy);$/;"	p	signature:(dplist_t * list, void * element, int index, bool insert_copy)
+dpl_insert_at_reference	lib/dplist.c	/^dplist_t * dpl_insert_at_reference( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )$/;"	f	signature:( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )
+dpl_insert_at_reference	lib/dplist.h	/^dplist_t * dpl_insert_at_reference( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy );$/;"	p	signature:( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )
+dpl_insert_sorted	lib/dplist.c	/^dplist_t * dpl_insert_sorted( dplist_t * list, void * element, bool insert_copy )$/;"	f	signature:( dplist_t * list, void * element, bool insert_copy )
+dpl_insert_sorted	lib/dplist.h	/^dplist_t * dpl_insert_sorted( dplist_t * list, void * element, bool insert_copy );$/;"	p	signature:( dplist_t * list, void * element, bool insert_copy )
+dpl_remove_at_index	lib/dplist.c	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index, bool free_element)$/;"	f	signature:( dplist_t * list, int index, bool free_element)
+dpl_remove_at_index	lib/dplist.h	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index, bool free_element);$/;"	p	signature:( dplist_t * list, int index, bool free_element)
+dpl_remove_at_reference	lib/dplist.c	/^dplist_t * dpl_remove_at_reference( dplist_t * list, dplist_node_t * reference, bool free_element )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference, bool free_element )
+dpl_remove_at_reference	lib/dplist.h	/^dplist_t * dpl_remove_at_reference( dplist_t * list, dplist_node_t * reference, bool free_element );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference, bool free_element )
+dpl_remove_element	lib/dplist.c	/^dplist_t * dpl_remove_element( dplist_t * list, void * element, bool free_element )$/;"	f	signature:( dplist_t * list, void * element, bool free_element )
+dpl_remove_element	lib/dplist.h	/^dplist_t * dpl_remove_element( dplist_t * list, void * element, bool free_element );$/;"	p	signature:( dplist_t * list, void * element, bool free_element )
+dpl_size	lib/dplist.c	/^int dpl_size( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_size	lib/dplist.h	/^int dpl_size( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_sort	lib/dplist.c	/^dplist_t * dpl_sort(dplist_t *list)$/;"	f	signature:(dplist_t *list)
+dpl_sort	lib/dplist.c	/^dplist_t * dpl_sort(dplist_t *list);$/;"	p	file:	signature:(dplist_t *list)
+dplist	lib/dplist.c	/^struct dplist {$/;"	s	file:
+dplist::element_compare	lib/dplist.c	/^  int (*element_compare)(void * x, void * y);$/;"	m	struct:dplist	file:	access:public
+dplist::element_copy	lib/dplist.c	/^  void * (*element_copy)(void * src_element);			  $/;"	m	struct:dplist	file:	access:public
+dplist::element_free	lib/dplist.c	/^  void (*element_free)(void ** element);$/;"	m	struct:dplist	file:	access:public
+dplist::head	lib/dplist.c	/^  dplist_node_t *head;$/;"	m	struct:dplist	file:	access:public
+dplist_errno	connmgr.c	/^int dplist_errno;$/;"	v
+dplist_node	lib/dplist.c	/^struct dplist_node {$/;"	s	file:
+dplist_node::element	lib/dplist.c	/^  void * element;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::next	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::prev	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node_t	lib/dplist.h	/^typedef struct dplist_node dplist_node_t;$/;"	t	typeref:struct:dplist_node
+dplist_t	lib/dplist.h	/^typedef struct dplist dplist_t; \/\/ slist_t is a struct containing at least a head pointer to the start of the list; later function pointers to element_copy, element_compare, element_free, etc. will be added$/;"	t	typeref:struct:dplist
+element	lib/dplist.c	/^  void * element;$/;"	m	struct:dplist_node	file:	access:public
+element_compare	connmgr.c	/^int element_compare(void *x, void *y)$/;"	f	signature:(void *x, void *y)
+element_compare	lib/dplist.c	/^  int (*element_compare)(void * x, void * y);$/;"	m	struct:dplist	file:	access:public
+element_copy	connmgr.c	/^void * element_copy(void *element)$/;"	f	signature:(void *element)
+element_copy	lib/dplist.c	/^  void * (*element_copy)(void * src_element);			  $/;"	m	struct:dplist	file:	access:public
+element_free	connmgr.c	/^void element_free(void **element)$/;"	f	signature:(void **element)
+element_free	lib/dplist.c	/^  void (*element_free)(void ** element);$/;"	m	struct:dplist	file:	access:public
+false	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	e	enum:__anon2
+handle_new_connection	connmgr.c	/^void handle_new_connection()$/;"	f
+handle_new_data	connmgr.c	/^void handle_new_data(FILE * fp_bin)$/;"	f	signature:(FILE * fp_bin)
+head	lib/dplist.c	/^  dplist_node_t *head;$/;"	m	struct:dplist	file:	access:public
+id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+ip_addr	lib/tcpsock.c	/^  char * ip_addr;	\/\/ socket IP address$/;"	m	struct:tcpsock	file:	access:public
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	sensor_node.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+max_fd	connmgr.c	/^int max_fd;$/;"	v
+max_index	connmgr.c	/^int max_index; \/* Maximum index of a client in client_set[] *\/$/;"	v
+next	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+port	lib/tcpsock.c	/^  int port;   		\/\/ socket port number$/;"	m	struct:tcpsock	file:	access:public
+prev	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+print_help	sensor_node.c	/^void print_help(void)$/;"	f	signature:(void)
+print_help	sensor_node.c	/^void print_help(void);$/;"	p	file:	signature:(void)
+readfds	connmgr.c	/^fd_set readfds, temp_fds;$/;"	v
+sd	lib/tcpsock.c	/^  int sd;		\/\/ socket descriptor$/;"	m	struct:tcpsock	file:	access:public
+sensor_data_t	config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon1
+sensor_id_t	config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_ts_t	config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_value_t	config.h	/^typedef double sensor_value_t;     $/;"	t
+server	connmgr.c	/^tcpsock_t * server, * client;$/;"	v
+tcp_active_open	lib/tcpsock.c	/^int tcp_active_open(tcpsock_t ** sock, int remote_port, char * remote_ip)$/;"	f	signature:(tcpsock_t ** sock, int remote_port, char * remote_ip)
+tcp_active_open	lib/tcpsock.h	/^int tcp_active_open(tcpsock_t ** socket, int remote_port, char * remote_ip);$/;"	p	signature:(tcpsock_t ** socket, int remote_port, char * remote_ip)
+tcp_close	lib/tcpsock.c	/^int tcp_close(tcpsock_t ** socket)$/;"	f	signature:(tcpsock_t ** socket)
+tcp_close	lib/tcpsock.h	/^int tcp_close(tcpsock_t ** socket); $/;"	p	signature:(tcpsock_t ** socket)
+tcp_get_ip_addr	lib/tcpsock.c	/^int tcp_get_ip_addr( tcpsock_t * socket, char ** ip_addr)$/;"	f	signature:( tcpsock_t * socket, char ** ip_addr)
+tcp_get_ip_addr	lib/tcpsock.h	/^int tcp_get_ip_addr( tcpsock_t * socket, char ** ip_addr);$/;"	p	signature:( tcpsock_t * socket, char ** ip_addr)
+tcp_get_port	lib/tcpsock.c	/^int tcp_get_port(tcpsock_t * socket, int * port)$/;"	f	signature:(tcpsock_t * socket, int * port)
+tcp_get_port	lib/tcpsock.h	/^int tcp_get_port(tcpsock_t * socket, int * port); $/;"	p	signature:(tcpsock_t * socket, int * port)
+tcp_get_sd	lib/tcpsock.c	/^int tcp_get_sd(tcpsock_t * socket, int * sd)$/;"	f	signature:(tcpsock_t * socket, int * sd)
+tcp_get_sd	lib/tcpsock.h	/^int tcp_get_sd(tcpsock_t * socket, int * sd); $/;"	p	signature:(tcpsock_t * socket, int * sd)
+tcp_passive_open	lib/tcpsock.c	/^int tcp_passive_open(tcpsock_t ** sock, int port)$/;"	f	signature:(tcpsock_t ** sock, int port)
+tcp_passive_open	lib/tcpsock.h	/^int tcp_passive_open(tcpsock_t ** socket, int port);$/;"	p	signature:(tcpsock_t ** socket, int port)
+tcp_receive	lib/tcpsock.c	/^int tcp_receive (tcpsock_t * socket, void * buffer, int * buf_size)$/;"	f	signature:(tcpsock_t * socket, void * buffer, int * buf_size)
+tcp_receive	lib/tcpsock.h	/^int tcp_receive (tcpsock_t * socket, void * buffer, int * buf_size);$/;"	p	signature:(tcpsock_t * socket, void * buffer, int * buf_size)
+tcp_send	lib/tcpsock.c	/^int tcp_send(tcpsock_t * socket, void * buffer, int * buf_size )$/;"	f	signature:(tcpsock_t * socket, void * buffer, int * buf_size )
+tcp_send	lib/tcpsock.h	/^int tcp_send(tcpsock_t * socket, void * buffer, int * buf_size );$/;"	p	signature:(tcpsock_t * socket, void * buffer, int * buf_size )
+tcp_sock_create	lib/tcpsock.c	/^static tcpsock_t * tcp_sock_create()$/;"	f	file:
+tcp_sock_create	lib/tcpsock.c	/^static tcpsock_t * tcp_sock_create();  $/;"	p	file:
+tcp_wait_for_connection	lib/tcpsock.c	/^int tcp_wait_for_connection(tcpsock_t * socket, tcpsock_t ** new_socket) $/;"	f	signature:(tcpsock_t * socket, tcpsock_t ** new_socket)
+tcp_wait_for_connection	lib/tcpsock.h	/^int tcp_wait_for_connection(tcpsock_t * socket, tcpsock_t ** new_socket); $/;"	p	signature:(tcpsock_t * socket, tcpsock_t ** new_socket)
+tcpsock	lib/tcpsock.c	/^struct tcpsock {$/;"	s	file:
+tcpsock::cookie	lib/tcpsock.c	/^  long cookie;		\/\/ if the socket is bound, cookie should be equal to MAGIC_COOKIE$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::ip_addr	lib/tcpsock.c	/^  char * ip_addr;	\/\/ socket IP address$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::port	lib/tcpsock.c	/^  int port;   		\/\/ socket port number$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::sd	lib/tcpsock.c	/^  int sd;		\/\/ socket descriptor$/;"	m	struct:tcpsock	file:	access:public
+tcpsock_t	lib/tcpsock.h	/^typedef struct tcpsock tcpsock_t;$/;"	t	typeref:struct:tcpsock
+temp_fds	connmgr.c	/^fd_set readfds, temp_fds;$/;"	v
+timestamp	connmgr.c	/^	time_t timestamp;$/;"	m	struct:connection	file:	access:public
+true	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	e	enum:__anon2
+ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+write_data_to_file	connmgr.c	/^void write_data_to_file(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)$/;"	f	signature:(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)

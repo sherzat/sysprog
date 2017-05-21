@@ -1,0 +1,154 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FILE_ERROR	main.c	11;"	d	file:
+FILE_ERROR	one_lock_solution/main.c	11;"	d	file:
+FILE_ERROR	two_lock_solution/main.c	11;"	d	file:
+SBUFFER_FAILURE	one_lock_solution/sbuffer.h	6;"	d
+SBUFFER_FAILURE	sbuffer.h	6;"	d
+SBUFFER_FAILURE	two_lock_solution/sbuffer.h	6;"	d
+SBUFFER_NO_DATA	one_lock_solution/sbuffer.h	8;"	d
+SBUFFER_NO_DATA	sbuffer.h	8;"	d
+SBUFFER_NO_DATA	two_lock_solution/sbuffer.h	8;"	d
+SBUFFER_SUCCESS	one_lock_solution/sbuffer.h	7;"	d
+SBUFFER_SUCCESS	sbuffer.h	7;"	d
+SBUFFER_SUCCESS	two_lock_solution/sbuffer.h	7;"	d
+_CONFIG_H_	config.h	2;"	d
+_CONFIG_H_	one_lock_solution/config.h	2;"	d
+_CONFIG_H_	two_lock_solution/config.h	2;"	d
+_SBUFFER_H_	one_lock_solution/sbuffer.h	2;"	d
+_SBUFFER_H_	sbuffer.h	2;"	d
+_SBUFFER_H_	two_lock_solution/sbuffer.h	2;"	d
+__anon1::id	two_lock_solution/config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+__anon1::ts	two_lock_solution/config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+__anon1::value	two_lock_solution/config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+__anon2::id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon2	access:public
+__anon2::ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon2	access:public
+__anon2::value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon2	access:public
+__anon3::id	one_lock_solution/config.h	/^	sensor_id_t id;$/;"	m	struct:__anon3	access:public
+__anon3::ts	one_lock_solution/config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon3	access:public
+__anon3::value	one_lock_solution/config.h	/^	sensor_value_t value;$/;"	m	struct:__anon3	access:public
+buffer	main.c	/^sbuffer_t *buffer;$/;"	v
+buffer	one_lock_solution/main.c	/^sbuffer_t *buffer;$/;"	v
+buffer	two_lock_solution/main.c	/^sbuffer_t *buffer;$/;"	v
+buffer_mutex	one_lock_solution/sbuffer.c	/^	pthread_mutex_t buffer_mutex;$/;"	m	struct:sbuffer	file:	access:public
+data	one_lock_solution/sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+data	sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+data	two_lock_solution/sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+head	one_lock_solution/sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+head	sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+head	two_lock_solution/sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+head_mutex	sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+head_mutex	two_lock_solution/sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon2	access:public
+id	one_lock_solution/config.h	/^	sensor_id_t id;$/;"	m	struct:__anon3	access:public
+id	two_lock_solution/config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	one_lock_solution/main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	two_lock_solution/main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+next	one_lock_solution/sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+next	sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+next	two_lock_solution/sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+read_head	sbuffer.c	/^  sbuffer_node_t * read_head;$/;"	m	struct:sbuffer	file:	access:public
+readable_cond	one_lock_solution/sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+readable_cond	sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+readable_cond	two_lock_solution/sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+reader	one_lock_solution/main.c	/^void *reader()$/;"	f
+reader	one_lock_solution/main.c	/^void *reader();$/;"	p	file:
+reader	two_lock_solution/main.c	/^void *reader()$/;"	f
+reader	two_lock_solution/main.c	/^void *reader();$/;"	p	file:
+reader1_fun	main.c	/^void *reader1_fun()$/;"	f
+reader1_fun	main.c	/^void *reader1_fun();$/;"	p	file:
+reader2_fun	main.c	/^void *reader2_fun()$/;"	f
+reader2_fun	main.c	/^void *reader2_fun();$/;"	p	file:
+remove_flag	sbuffer.c	/^	int remove_flag;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer	one_lock_solution/sbuffer.c	/^struct sbuffer {$/;"	s	file:
+sbuffer	sbuffer.c	/^struct sbuffer {$/;"	s	file:
+sbuffer	two_lock_solution/sbuffer.c	/^struct sbuffer {$/;"	s	file:
+sbuffer::buffer_mutex	one_lock_solution/sbuffer.c	/^	pthread_mutex_t buffer_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head	one_lock_solution/sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head	sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head	two_lock_solution/sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head_mutex	sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head_mutex	two_lock_solution/sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::read_head	sbuffer.c	/^  sbuffer_node_t * read_head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::readable_cond	one_lock_solution/sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::readable_cond	sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::readable_cond	two_lock_solution/sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail	one_lock_solution/sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail	sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail	two_lock_solution/sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail_mutex	sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail_mutex	two_lock_solution/sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer_free	one_lock_solution/sbuffer.c	/^int sbuffer_free(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_free	one_lock_solution/sbuffer.h	/^int sbuffer_free(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_free	sbuffer.c	/^int sbuffer_free(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_free	sbuffer.h	/^int sbuffer_free(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_free	two_lock_solution/sbuffer.c	/^int sbuffer_free(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_free	two_lock_solution/sbuffer.h	/^int sbuffer_free(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_init	one_lock_solution/sbuffer.c	/^int sbuffer_init(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_init	one_lock_solution/sbuffer.h	/^int sbuffer_init(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_init	sbuffer.c	/^int sbuffer_init(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_init	sbuffer.h	/^int sbuffer_init(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_init	two_lock_solution/sbuffer.c	/^int sbuffer_init(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_init	two_lock_solution/sbuffer.h	/^int sbuffer_init(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_insert	one_lock_solution/sbuffer.c	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data)$/;"	f	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_insert	one_lock_solution/sbuffer.h	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data);$/;"	p	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_insert	sbuffer.c	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data)$/;"	f	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_insert	sbuffer.h	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data);$/;"	p	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_insert	two_lock_solution/sbuffer.c	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data)$/;"	f	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_insert	two_lock_solution/sbuffer.h	/^int sbuffer_insert(sbuffer_t * buffer, sensor_data_t * data);$/;"	p	signature:(sbuffer_t * buffer, sensor_data_t * data)
+sbuffer_node	one_lock_solution/sbuffer.c	/^typedef struct sbuffer_node {$/;"	s	file:
+sbuffer_node	sbuffer.c	/^typedef struct sbuffer_node {$/;"	s	file:
+sbuffer_node	two_lock_solution/sbuffer.c	/^typedef struct sbuffer_node {$/;"	s	file:
+sbuffer_node::data	one_lock_solution/sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer_node::data	sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer_node::data	two_lock_solution/sbuffer.c	/^  sensor_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer_node::next	one_lock_solution/sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+sbuffer_node::next	sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+sbuffer_node::next	two_lock_solution/sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+sbuffer_node::remove_flag	sbuffer.c	/^	int remove_flag;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer_node_t	one_lock_solution/sbuffer.c	/^} sbuffer_node_t;$/;"	t	typeref:struct:sbuffer_node	file:
+sbuffer_node_t	sbuffer.c	/^} sbuffer_node_t;$/;"	t	typeref:struct:sbuffer_node	file:
+sbuffer_node_t	two_lock_solution/sbuffer.c	/^} sbuffer_node_t;$/;"	t	typeref:struct:sbuffer_node	file:
+sbuffer_remove	one_lock_solution/sbuffer.c	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout)$/;"	f	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_remove	one_lock_solution/sbuffer.h	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout);$/;"	p	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_remove	sbuffer.c	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout)$/;"	f	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_remove	sbuffer.h	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout);$/;"	p	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_remove	two_lock_solution/sbuffer.c	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout)$/;"	f	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_remove	two_lock_solution/sbuffer.h	/^int sbuffer_remove(sbuffer_t * buffer,sensor_data_t * data, int timeout);$/;"	p	signature:(sbuffer_t * buffer,sensor_data_t * data, int timeout)
+sbuffer_t	one_lock_solution/sbuffer.h	/^typedef struct sbuffer sbuffer_t;$/;"	t	typeref:struct:sbuffer
+sbuffer_t	sbuffer.h	/^typedef struct sbuffer sbuffer_t;$/;"	t	typeref:struct:sbuffer
+sbuffer_t	two_lock_solution/sbuffer.h	/^typedef struct sbuffer sbuffer_t;$/;"	t	typeref:struct:sbuffer
+sensor_data_t	config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon2
+sensor_data_t	one_lock_solution/config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon3
+sensor_data_t	two_lock_solution/config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon1
+sensor_id_t	config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_id_t	one_lock_solution/config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_id_t	two_lock_solution/config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_ts_t	config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_ts_t	one_lock_solution/config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_ts_t	two_lock_solution/config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_value_t	config.h	/^typedef double sensor_value_t;     $/;"	t
+sensor_value_t	one_lock_solution/config.h	/^typedef double sensor_value_t;     $/;"	t
+sensor_value_t	two_lock_solution/config.h	/^typedef double sensor_value_t;     $/;"	t
+tail	one_lock_solution/sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+tail	sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+tail	two_lock_solution/sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+tail_mutex	sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+tail_mutex	two_lock_solution/sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon2	access:public
+ts	one_lock_solution/config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon3	access:public
+ts	two_lock_solution/config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon2	access:public
+value	one_lock_solution/config.h	/^	sensor_value_t value;$/;"	m	struct:__anon3	access:public
+value	two_lock_solution/config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+writer	main.c	/^void *writer(void * arg)$/;"	f	signature:(void * arg)
+writer	main.c	/^void *writer(void *arg);$/;"	p	file:	signature:(void *arg)
+writer	one_lock_solution/main.c	/^void *writer(void * arg)$/;"	f	signature:(void * arg)
+writer	one_lock_solution/main.c	/^void *writer(void *arg);$/;"	p	file:	signature:(void *arg)
+writer	two_lock_solution/main.c	/^void *writer(void * arg)$/;"	f	signature:(void * arg)
+writer	two_lock_solution/main.c	/^void *writer(void *arg);$/;"	p	file:	signature:(void *arg)
