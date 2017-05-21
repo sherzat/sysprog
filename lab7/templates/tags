@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DBCONN	sensor_db.h	22;"	d
+DB_NAME	sensor_db.h	15;"	d
+REAL_TO_STRING	sensor_db.h	11;"	d
+TABLE_NAME	sensor_db.h	19;"	d
+TO_STRING	sensor_db.h	12;"	d
+_CONFIG_H_	config.h	2;"	d
+_SENSOR_DB_H_	sensor_db.h	2;"	d
+__anon1::id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+__anon1::ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+__anon1::value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+callback_t	sensor_db.h	/^typedef int (*callback_t)(void *, int, char **, char **);$/;"	t
+disconnect	sensor_db.h	/^void disconnect(DBCONN *conn);$/;"	p	signature:(DBCONN *conn)
+find_sensor_after_timestamp	sensor_db.h	/^int find_sensor_after_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_all	sensor_db.h	/^int find_sensor_all(DBCONN * conn, callback_t f);$/;"	p	signature:(DBCONN * conn, callback_t f)
+find_sensor_by_timestamp	sensor_db.h	/^int find_sensor_by_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_by_value	sensor_db.h	/^int find_sensor_by_value(DBCONN * conn, sensor_value_t value, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+find_sensor_exceed_value	sensor_db.h	/^int find_sensor_exceed_value(DBCONN * conn, sensor_value_t value, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+init_connection	sensor_db.c	/^DBCONN * init_connection(char clear_up_flag)$/;"	f	signature:(char clear_up_flag)
+init_connection	sensor_db.h	/^DBCONN * init_connection(char clear_up_flag);$/;"	p	signature:(char clear_up_flag)
+insert_sensor	sensor_db.h	/^int insert_sensor(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts);$/;"	p	signature:(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)
+insert_sensor_from_file	sensor_db.h	/^int insert_sensor_from_file(DBCONN * conn, FILE * sensor_data);$/;"	p	signature:(DBCONN * conn, FILE * sensor_data)
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+sensor_data_t	config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon1
+sensor_id_t	config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_ts_t	config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_value_t	config.h	/^typedef double sensor_value_t;     $/;"	t
+ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public

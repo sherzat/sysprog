@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DEBUG_PRINTF	dplist.c	15;"	d	file:
+DEBUG_PRINTF	dplist.c	9;"	d	file:
+DPLIST_ERR_HANDLER	dplist.c	19;"	d	file:
+DPLIST_H_	dplist.h	2;"	d
+DPLIST_INVALID_ERROR	dplist.h	12;"	d
+DPLIST_MEMORY_ERROR	dplist.h	10;"	d
+DPLIST_NO_ERROR	dplist.h	9;"	d
+dpl_create	dplist.c	/^dplist_t * dpl_create ()$/;"	f
+dpl_create	dplist.h	/^dplist_t * dpl_create ();$/;"	p	signature:()
+dpl_free	dplist.c	/^void dpl_free( dplist_t ** list )$/;"	f	signature:( dplist_t ** list )
+dpl_free	dplist.h	/^void dpl_free( dplist_t ** list );$/;"	p	signature:( dplist_t ** list )
+dpl_get_element_at_index	dplist.c	/^element_t dpl_get_element_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_element_at_index	dplist.h	/^element_t dpl_get_element_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_get_index_of_element	dplist.c	/^int dpl_get_index_of_element( dplist_t * list, element_t element )$/;"	f	signature:( dplist_t * list, element_t element )
+dpl_get_index_of_element	dplist.h	/^int dpl_get_index_of_element( dplist_t * list, element_t element );$/;"	p	signature:( dplist_t * list, element_t element )
+dpl_get_reference_at_index	dplist.c	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_reference_at_index	dplist.h	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_insert_at_index	dplist.c	/^dplist_t * dpl_insert_at_index( dplist_t * list, element_t element, int index)$/;"	f	signature:( dplist_t * list, element_t element, int index)
+dpl_insert_at_index	dplist.h	/^dplist_t * dpl_insert_at_index( dplist_t * list, element_t element, int index);$/;"	p	signature:( dplist_t * list, element_t element, int index)
+dpl_print	main.c	/^void dpl_print( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_remove_at_index	dplist.c	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index)$/;"	f	signature:( dplist_t * list, int index)
+dpl_remove_at_index	dplist.h	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index);$/;"	p	signature:( dplist_t * list, int index)
+dpl_size	dplist.c	/^int dpl_size( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_size	dplist.h	/^int dpl_size( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dplist	dplist.c	/^struct dplist {$/;"	s	file:
+dplist::head	dplist.c	/^  dplist_node_t * head;$/;"	m	struct:dplist	file:	access:public
+dplist_errno	main.c	/^int dplist_errno;$/;"	v
+dplist_node	dplist.c	/^struct dplist_node {$/;"	s	file:
+dplist_node::element	dplist.c	/^  element_t element;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::next	dplist.c	/^  dplist_node_t * prev, * next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::prev	dplist.c	/^  dplist_node_t * prev, * next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node_t	dplist.h	/^typedef struct dplist_node dplist_node_t;$/;"	t	typeref:struct:dplist_node
+dplist_t	dplist.h	/^typedef struct dplist dplist_t; \/\/ slist_t is a struct containing at least a head pointer to the start of the list; later function pointers to element_copy, element_compare, element_free, etc. will be added$/;"	t	typeref:struct:dplist
+element	dplist.c	/^  element_t element;$/;"	m	struct:dplist_node	file:	access:public
+element_t	dplist.h	/^typedef int element_t;$/;"	t
+head	dplist.c	/^  dplist_node_t * head;$/;"	m	struct:dplist	file:	access:public
+list	main.c	/^dplist_t * list = NULL;$/;"	v
+main	main.c	/^int main(void)$/;"	f	signature:(void)
+next	dplist.c	/^  dplist_node_t * prev, * next;$/;"	m	struct:dplist_node	file:	access:public
+prev	dplist.c	/^  dplist_node_t * prev, * next;$/;"	m	struct:dplist_node	file:	access:public

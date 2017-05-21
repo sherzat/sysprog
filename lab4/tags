@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOCATED	ma_malloc.c	/^typedef enum {ALLOCATED, FREE} mem_status;$/;"	e	enum:__anon1	file:
+FREE	ma_malloc.c	/^typedef enum {ALLOCATED, FREE} mem_status;$/;"	e	enum:__anon1	file:
+MA_MALLOC_H_	ma_malloc.h	2;"	d
+MEM_POOL_SIZE	ma_malloc.c	7;"	d	file:
+__anon2::size	ma_malloc.c	/^  size size;$/;"	m	struct:__anon2	file:	access:public
+__anon2::status	ma_malloc.c	/^  mem_status status;$/;"	m	struct:__anon2	file:	access:public
+byte	ma_malloc.c	/^typedef unsigned char byte;$/;"	t	file:
+ma_free	ma_malloc.c	/^void ma_free(void* ptr)$/;"	f	signature:(void* ptr)
+ma_free	ma_malloc.h	/^void ma_free(void* ptr);$/;"	p	signature:(void* ptr)
+ma_init	ma_malloc.c	/^void ma_init()$/;"	f
+ma_init	ma_malloc.h	/^void ma_init();$/;"	p	signature:()
+ma_malloc	ma_malloc.c	/^void* ma_malloc(size tsize)$/;"	f	signature:(size tsize)
+ma_malloc	ma_malloc.h	/^void* ma_malloc(size tsize);$/;"	p	signature:(size tsize)
+ma_print	ma_malloc.c	/^void ma_print(void)$/;"	f	signature:(void)
+ma_print	ma_malloc.h	/^void ma_print(void);$/;"	p	signature:(void)
+main	main.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+mem_chunk_header	ma_malloc.c	/^} mem_chunk_header;$/;"	t	typeref:struct:__anon2	file:
+mem_pool	ma_malloc.c	/^static byte mem_pool[MEM_POOL_SIZE];$/;"	v	file:
+mem_status	ma_malloc.c	/^typedef enum {ALLOCATED, FREE} mem_status;$/;"	t	typeref:enum:__anon1	file:
+size	ma_malloc.c	/^  size size;$/;"	m	struct:__anon2	file:	access:public
+size	ma_malloc.h	/^typedef int size;$/;"	t
+status	ma_malloc.c	/^  mem_status status;$/;"	m	struct:__anon2	file:	access:public
