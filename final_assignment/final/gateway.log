@@ -1,0 +1,29 @@
+ 1 1463756955 Connection to SQL server established.
+ 2 1463756956 New table SensorData created.
+ 3 1463756957 A sensor node with 15 has opened a new connection
+ 4 1463756957 A sensor node with 21 has opened a new connection
+ 5 1463756957 A sensor node with 37 has opened a new connection
+ 6 1463756957 A sensor node with 49 has opened a new connection
+ 7 1463756961 The sensor node with 2 reports it’s too hot (running avg temperature = 20.106423)
+ 8 1463756961 The sensor node with 3 reports it’s too hot (running avg temperature = 20.106423)
+ 9 1463756961 The sensor node with 1 reports it’s too hot (running avg temperature = 20.106423)
+10 1463756962 The sensor node with 49 has closed the connection
+11 1463756962 The sensor node with 2 reports it’s too hot (running avg temperature = 20.082927)
+12 1463756962 The sensor node with 3 reports it’s too hot (running avg temperature = 20.082927)
+13 1463756962 The sensor node with 1 reports it’s too hot (running avg temperature = 20.082927)
+14 1463756963 The sensor node with 2 reports it’s too hot (running avg temperature = 20.051323)
+15 1463756963 The sensor node with 3 reports it’s too hot (running avg temperature = 20.051323)
+16 1463756963 The sensor node with 1 reports it’s too hot (running avg temperature = 20.051323)
+17 1463756974 The sensor node with 2 reports it’s too hot (running avg temperature = 20.052254)
+18 1463756974 The sensor node with 3 reports it’s too hot (running avg temperature = 20.052254)
+19 1463756974 The sensor node with 1 reports it’s too hot (running avg temperature = 20.052254)
+20 1463756975 The sensor node with 2 reports it’s too hot (running avg temperature = 20.161976)
+21 1463756975 The sensor node with 3 reports it’s too hot (running avg temperature = 20.161976)
+22 1463756975 The sensor node with 1 reports it’s too hot (running avg temperature = 20.161976)
+23 1463756976 The sensor node with 2 reports it’s too hot (running avg temperature = 20.191798)
+24 1463756976 The sensor node with 3 reports it’s too hot (running avg temperature = 20.191798)
+25 1463756976 The sensor node with 1 reports it’s too hot (running avg temperature = 20.191798)
+26 1463756977 The sensor node with 21 has closed the connection
+27 1463756977 The sensor node with 37 has closed the connection
+28 1463756977 The sensor node with 15 has closed the connection
+29 1463756981 Connection to SQL server lost.

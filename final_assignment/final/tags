@@ -1,0 +1,324 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+-enable	Makefile	/^	cppcheck --enable=all --suppress=missingIncludeSystem $^$/;"	m
+ASPRINTF_ERROR	errmacros.h	45;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CDFLAGS	Makefile	/^CDFLAGS = -Wall -std=c11 -Werror -c -fdiagnostics-color=auto -fPIC$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall -std=c11 -Werror -c -fdiagnostics-color=auto -DSET_MIN_TEMP=10 -DSET_MAX_TEMP=20 -DTIMEOUT=5$/;"	m
+CHAR_IP_ADDR_LENGTH	lib/tcpsock.c	46;"	d	file:
+CHECK_MKFIFO	errmacros.h	15;"	d
+DBCONN	sensor_db.h	23;"	d
+DB_NAME	sensor_db.h	16;"	d
+DEBUG_PRINTF	lib/dplist.c	13;"	d	file:
+DEBUG_PRINTF	lib/dplist.c	7;"	d	file:
+DPLIST_ERR_HANDLER	lib/dplist.c	17;"	d	file:
+DPLIST_INVALID_ERROR	lib/dplist.h	12;"	d
+DPLIST_MEMORY_ERROR	lib/dplist.h	10;"	d
+DPLIST_NO_ERROR	lib/dplist.h	9;"	d
+FFLUSH_ERROR	errmacros.h	54;"	d
+FIFO_NAME	config.h	8;"	d
+FILE_CLOSE_ERROR	errmacros.h	36;"	d
+FILE_ERROR	errmacros.h	72;"	d
+FILE_ERROR	file_creator.c	10;"	d	file:
+FILE_OPEN_ERROR	errmacros.h	27;"	d
+INITIAL_TEMPERATURE	sensor_node.c	51;"	d	file:
+LDFLAGS	Makefile	/^LDFLAGS = -Wall -fdiagnostics-color=auto -shared -lm$/;"	m
+LDIR	Makefile	/^LDIR = lib$/;"	m
+LFLAGS	Makefile	/^LFLAGS = -Wall -fdiagnostics-color=auto -L.\/$(LDIR) -Wl,-rpath=.\/$(LDIR) -lsqlite3$/;"	m
+LOG_CLOSE	sensor_node.c	43;"	d	file:
+LOG_CLOSE	sensor_node.c	48;"	d	file:
+LOG_FILE	sensor_node.c	25;"	d	file:
+LOG_OPEN	sensor_node.c	27;"	d	file:
+LOG_OPEN	sensor_node.c	46;"	d	file:
+LOG_PRINTF	sensor_node.c	37;"	d	file:
+LOG_PRINTF	sensor_node.c	47;"	d	file:
+LOOPS	sensor_node.c	18;"	d	file:
+MAGIC_COOKIE	lib/tcpsock.c	44;"	d	file:
+MALLOC_ERROR	errmacros.h	79;"	d
+MAX_PENDING	lib/tcpsock.h	15;"	d
+MAX_PORT	lib/tcpsock.h	6;"	d
+MIN_PORT	lib/tcpsock.h	5;"	d
+NO_COLOR	Makefile	/^NO_COLOR = \\033[0m$/;"	m
+NUM_MEASUREMENTS	file_creator.c	18;"	d	file:
+NUM_SENSORS	file_creator.c	20;"	d	file:
+OBJ	Makefile	/^OBJ = $(addprefix $(OBJDIR)\/,main.o connmgr.o datamgr.o sensor_db.o sbuffer.o)$/;"	m
+OBJDIR	Makefile	/^OBJDIR = tmp$/;"	m
+PROTOCOL	lib/tcpsock.c	49;"	d	file:
+PROTOCOLFAMILY	lib/tcpsock.c	47;"	d	file:
+PTHREAD_ERROR	errmacros.h	63;"	d
+REAL_TO_STRING	sensor_db.h	12;"	d
+RUN_AVG_LENGTH	datamgr.h	12;"	d
+SBUFFER_FAILURE	sbuffer.h	6;"	d
+SBUFFER_NO_DATA	sbuffer.h	8;"	d
+SBUFFER_SUCCESS	sbuffer.h	7;"	d
+SLEEP_TIME	file_creator.c	19;"	d	file:
+SYSCALL_ERROR	errmacros.h	6;"	d
+TABLE_NAME	sensor_db.h	20;"	d
+TCP_ADDRESS_ERROR	lib/tcpsock.h	10;"	d
+TCP_CONNECTION_CLOSED	lib/tcpsock.h	12;"	d
+TCP_DEBUG_PRINTF	lib/tcpsock.c	21;"	d	file:
+TCP_DEBUG_PRINTF	lib/tcpsock.c	30;"	d	file:
+TCP_ERR_HANDLER	lib/tcpsock.c	34;"	d	file:
+TCP_MEMORY_ERROR	lib/tcpsock.h	13;"	d
+TCP_NO_ERROR	lib/tcpsock.h	8;"	d
+TCP_SOCKET_ERROR	lib/tcpsock.h	9;"	d
+TCP_SOCKOP_ERROR	lib/tcpsock.h	11;"	d
+TEMP_DEV	file_creator.c	21;"	d	file:
+TEMP_DEV	sensor_node.c	52;"	d	file:
+TITLE_COLOR	Makefile	/^TITLE_COLOR = \\033[33m$/;"	m
+TO_STRING	sensor_db.h	13;"	d
+TYPE	lib/tcpsock.c	48;"	d	file:
+UPDATE	sensor_node.c	16;"	d	file:
+UPDATE	sensor_node.c	19;"	d	file:
+_CONFIG_H_	config.h	2;"	d
+_CONNMGR_H_	connmgr.h	2;"	d
+_DATAMGR_H_	datamgr.h	2;"	d
+_DPLIST_H_	lib/dplist.h	2;"	d
+_GNU_SOURCE	lib/tcpsock.c	2;"	d	file:
+_SBUFFER_H_	sbuffer.h	2;"	d
+_SENSOR_DB_H_	sensor_db.h	2;"	d
+_SVID_SOURCE	file_creator.c	1;"	d	file:
+_SVID_SOURCE	sensor_node.c	1;"	d	file:
+__TCPSOCK_H__	lib/tcpsock.h	3;"	d
+__anon1::id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+__anon1::ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+__anon1::value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+__errmacros_h__	errmacros.h	2;"	d
+bool	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	t	typeref:enum:__anon2
+buffer	datamgr.c	/^	sensor_value_t buffer[RUN_AVG_LENGTH];$/;"	m	struct:sensor_node	file:	access:public
+buffer	main.c	/^sbuffer_t *buffer;$/;"	v
+buffer_size	datamgr.c	/^	int buffer_size;$/;"	m	struct:sensor_node	file:	access:public
+build_select_readfds	connmgr.c	/^void build_select_readfds(int * max_fd)$/;"	f	signature:(int * max_fd)
+build_select_readfds	connmgr.h	/^void build_select_readfds(int * max_fd);$/;"	p	signature:(int * max_fd)
+callback_t	sensor_db.h	/^typedef int (*callback_t)(void *, int, char **, char **);$/;"	t
+client	connmgr.c	/^	tcpsock_t *client;$/;"	m	struct:connection	file:	access:public
+client	connmgr.c	/^tcpsock_t * server, * client;$/;"	v
+conn_list	connmgr.c	/^dplist_t *conn_list = NULL;$/;"	v
+connection	connmgr.c	/^struct connection{$/;"	s	file:
+connection	connmgr.c	/^} connection;$/;"	v	typeref:struct:connection
+connection::client	connmgr.c	/^	tcpsock_t *client;$/;"	m	struct:connection	file:	access:public
+connection::sensor_id	connmgr.c	/^	sensor_id_t sensor_id;$/;"	m	struct:connection	file:	access:public
+connection::timestamp	connmgr.c	/^	time_t timestamp;$/;"	m	struct:connection	file:	access:public
+connection_t	connmgr.h	/^typedef struct connection connection_t;$/;"	t	typeref:struct:connection
+connmgr	main.c	/^void *connmgr(void * arg)$/;"	f	signature:(void * arg)
+connmgr	main.c	/^void *connmgr(void *arg);$/;"	p	file:	signature:(void *arg)
+connmgr_element_compare	connmgr.c	/^int connmgr_element_compare(void *x, void *y)$/;"	f	signature:(void *x, void *y)
+connmgr_element_copy	connmgr.c	/^void * connmgr_element_copy(void *element)$/;"	f	signature:(void *element)
+connmgr_element_free	connmgr.c	/^void connmgr_element_free(void **element)$/;"	f	signature:(void **element)
+connmgr_free	connmgr.c	/^void connmgr_free()$/;"	f
+connmgr_free	connmgr.h	/^void connmgr_free();$/;"	p	signature:()
+connmgr_listen	connmgr.c	/^void connmgr_listen(int port_number, sbuffer_t **buffer)$/;"	f	signature:(int port_number, sbuffer_t **buffer)
+connmgr_listen	connmgr.h	/^void connmgr_listen(int port_number, sbuffer_t **buffer);$/;"	p	signature:(int port_number, sbuffer_t **buffer)
+cookie	lib/tcpsock.c	/^  long cookie;		\/\/ if the socket is bound, cookie should be equal to MAGIC_COOKIE$/;"	m	struct:tcpsock	file:	access:public
+data	sbuffer.c	/^  sbuffer_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+datamgr	main.c	/^void *datamgr(void *arg)$/;"	f	signature:(void *arg)
+datamgr	main.c	/^void *datamgr(void *arg);$/;"	p	file:	signature:(void *arg)
+datamgr_element_compare	datamgr.c	/^int datamgr_element_compare(void *x, void *y)$/;"	f	signature:(void *x, void *y)
+datamgr_element_copy	datamgr.c	/^void * datamgr_element_copy(void *element)$/;"	f	signature:(void *element)
+datamgr_element_free	datamgr.c	/^void datamgr_element_free(void **element)$/;"	f	signature:(void **element)
+datamgr_free	datamgr.c	/^void datamgr_free()$/;"	f
+datamgr_free	datamgr.h	/^void datamgr_free();$/;"	p	signature:()
+datamgr_get_avg	datamgr.c	/^sensor_value_t datamgr_get_avg(sensor_id_t sensor_id)$/;"	f	signature:(sensor_id_t sensor_id)
+datamgr_get_avg	datamgr.h	/^sensor_value_t datamgr_get_avg(sensor_id_t sensor_id);$/;"	p	signature:(sensor_id_t sensor_id)
+datamgr_get_last_modified	datamgr.c	/^time_t datamgr_get_last_modified(sensor_id_t sensor_id)$/;"	f	signature:(sensor_id_t sensor_id)
+datamgr_get_last_modified	datamgr.h	/^time_t datamgr_get_last_modified(sensor_id_t sensor_id);$/;"	p	signature:(sensor_id_t sensor_id)
+datamgr_get_room_id	datamgr.c	/^uint16_t datamgr_get_room_id(sensor_id_t sensor_id)$/;"	f	signature:(sensor_id_t sensor_id)
+datamgr_get_room_id	datamgr.h	/^uint16_t datamgr_get_room_id(sensor_id_t sensor_id);$/;"	p	signature:(sensor_id_t sensor_id)
+datamgr_get_sensnor_node	datamgr.c	/^sensor_node_t *datamgr_get_sensnor_node(sensor_id_t sensor_id)$/;"	f	signature:(sensor_id_t sensor_id)
+datamgr_get_sensnor_node	datamgr.h	/^sensor_node_t *datamgr_get_sensnor_node(sensor_id_t sensor_id);$/;"	p	signature:(sensor_id_t sensor_id)
+datamgr_get_total_sensors	datamgr.c	/^int datamgr_get_total_sensors()$/;"	f
+datamgr_get_total_sensors	datamgr.h	/^int datamgr_get_total_sensors();$/;"	p	signature:()
+datamgr_parse_sensor_data	datamgr.c	/^void datamgr_parse_sensor_data(FILE * fp_sensor_map, sbuffer_t **sbuffer)$/;"	f	signature:(FILE * fp_sensor_map, sbuffer_t **sbuffer)
+datamgr_parse_sensor_data	datamgr.h	/^void datamgr_parse_sensor_data(FILE * fp_sensor_map, sbuffer_t **sbuffer);$/;"	p	signature:(FILE * fp_sensor_map, sbuffer_t **sbuffer)
+datamgr_running_avg	datamgr.c	/^sensor_value_t datamgr_running_avg(sensor_id_t sensor_id)$/;"	f	signature:(sensor_id_t sensor_id)
+datamgr_running_avg	datamgr.h	/^sensor_value_t datamgr_running_avg(sensor_id_t sensor_id);$/;"	p	signature:(sensor_id_t sensor_id)
+disconnect	sensor_db.c	/^void disconnect(DBCONN *conn)$/;"	f	signature:(DBCONN *conn)
+disconnect	sensor_db.h	/^void disconnect(DBCONN *conn);$/;"	p	signature:(DBCONN *conn)
+dpl_create	lib/dplist.c	/^dplist_t *dpl_create (\/\/ callback functions$/;"	f	signature:( void * (*element_copy)(void * src_element), void (*element_free)(void ** element), int (*element_compare)(void * x, void * y) )
+dpl_create	lib/dplist.h	/^dplist_t * dpl_create (\/\/ callback functions$/;"	p	signature:( void * (*element_copy)(void * element), void (*element_free)(void ** element), int (*element_compare)(void * x, void * y) )
+dpl_free	lib/dplist.c	/^void dpl_free(dplist_t ** list)$/;"	f	signature:(dplist_t ** list)
+dpl_free	lib/dplist.h	/^void dpl_free(dplist_t ** list);$/;"	p	signature:(dplist_t ** list)
+dpl_get_element_at_index	lib/dplist.c	/^void * dpl_get_element_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_element_at_index	lib/dplist.h	/^void * dpl_get_element_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_get_element_at_reference	lib/dplist.c	/^void * dpl_get_element_at_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_element_at_reference	lib/dplist.h	/^void * dpl_get_element_at_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_first_reference	lib/dplist.c	/^dplist_node_t * dpl_get_first_reference( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_get_first_reference	lib/dplist.h	/^dplist_node_t * dpl_get_first_reference( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_get_index_of_element	lib/dplist.c	/^int dpl_get_index_of_element( dplist_t * list, void * element )$/;"	f	signature:( dplist_t * list, void * element )
+dpl_get_index_of_element	lib/dplist.h	/^int dpl_get_index_of_element( dplist_t * list, void * element );$/;"	p	signature:( dplist_t * list, void * element )
+dpl_get_index_of_reference	lib/dplist.c	/^int dpl_get_index_of_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_index_of_reference	lib/dplist.h	/^int dpl_get_index_of_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_last_reference	lib/dplist.c	/^dplist_node_t * dpl_get_last_reference( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_get_last_reference	lib/dplist.h	/^dplist_node_t * dpl_get_last_reference( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_get_next_reference	lib/dplist.c	/^dplist_node_t * dpl_get_next_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_next_reference	lib/dplist.h	/^dplist_node_t * dpl_get_next_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_previous_reference	lib/dplist.c	/^dplist_node_t * dpl_get_previous_reference( dplist_t * list, dplist_node_t * reference )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_previous_reference	lib/dplist.h	/^dplist_node_t * dpl_get_previous_reference( dplist_t * list, dplist_node_t * reference );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference )
+dpl_get_reference_at_index	lib/dplist.c	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index )$/;"	f	signature:( dplist_t * list, int index )
+dpl_get_reference_at_index	lib/dplist.h	/^dplist_node_t * dpl_get_reference_at_index( dplist_t * list, int index );$/;"	p	signature:( dplist_t * list, int index )
+dpl_get_reference_of_element	lib/dplist.c	/^dplist_node_t * dpl_get_reference_of_element( dplist_t * list, void * element )$/;"	f	signature:( dplist_t * list, void * element )
+dpl_get_reference_of_element	lib/dplist.h	/^dplist_node_t * dpl_get_reference_of_element( dplist_t * list, void * element );$/;"	p	signature:( dplist_t * list, void * element )
+dpl_insert_at_index	lib/dplist.c	/^dplist_t * dpl_insert_at_index(dplist_t * list, void * element, int index, bool insert_copy)$/;"	f	signature:(dplist_t * list, void * element, int index, bool insert_copy)
+dpl_insert_at_index	lib/dplist.h	/^dplist_t * dpl_insert_at_index(dplist_t * list, void * element, int index, bool insert_copy);$/;"	p	signature:(dplist_t * list, void * element, int index, bool insert_copy)
+dpl_insert_at_reference	lib/dplist.c	/^dplist_t * dpl_insert_at_reference( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )$/;"	f	signature:( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )
+dpl_insert_at_reference	lib/dplist.h	/^dplist_t * dpl_insert_at_reference( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy );$/;"	p	signature:( dplist_t * list, void * element, dplist_node_t * reference, bool insert_copy )
+dpl_insert_sorted	lib/dplist.c	/^dplist_t * dpl_insert_sorted( dplist_t * list, void * element, bool insert_copy )$/;"	f	signature:( dplist_t * list, void * element, bool insert_copy )
+dpl_insert_sorted	lib/dplist.h	/^dplist_t * dpl_insert_sorted( dplist_t * list, void * element, bool insert_copy );$/;"	p	signature:( dplist_t * list, void * element, bool insert_copy )
+dpl_remove_at_index	lib/dplist.c	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index, bool free_element)$/;"	f	signature:( dplist_t * list, int index, bool free_element)
+dpl_remove_at_index	lib/dplist.h	/^dplist_t * dpl_remove_at_index( dplist_t * list, int index, bool free_element);$/;"	p	signature:( dplist_t * list, int index, bool free_element)
+dpl_remove_at_reference	lib/dplist.c	/^dplist_t * dpl_remove_at_reference( dplist_t * list, dplist_node_t * reference, bool free_element )$/;"	f	signature:( dplist_t * list, dplist_node_t * reference, bool free_element )
+dpl_remove_at_reference	lib/dplist.h	/^dplist_t * dpl_remove_at_reference( dplist_t * list, dplist_node_t * reference, bool free_element );$/;"	p	signature:( dplist_t * list, dplist_node_t * reference, bool free_element )
+dpl_remove_element	lib/dplist.c	/^dplist_t * dpl_remove_element( dplist_t * list, void * element, bool free_element )$/;"	f	signature:( dplist_t * list, void * element, bool free_element )
+dpl_remove_element	lib/dplist.h	/^dplist_t * dpl_remove_element( dplist_t * list, void * element, bool free_element );$/;"	p	signature:( dplist_t * list, void * element, bool free_element )
+dpl_size	lib/dplist.c	/^int dpl_size( dplist_t * list )$/;"	f	signature:( dplist_t * list )
+dpl_size	lib/dplist.h	/^int dpl_size( dplist_t * list );$/;"	p	signature:( dplist_t * list )
+dpl_sort	lib/dplist.c	/^dplist_t * dpl_sort(dplist_t *list)$/;"	f	signature:(dplist_t *list)
+dpl_sort	lib/dplist.c	/^dplist_t * dpl_sort(dplist_t *list);$/;"	p	file:	signature:(dplist_t *list)
+dplist	lib/dplist.c	/^struct dplist {$/;"	s	file:
+dplist::element_compare	lib/dplist.c	/^  int (*element_compare)(void * x, void * y);$/;"	m	struct:dplist	file:	access:public
+dplist::element_copy	lib/dplist.c	/^  void * (*element_copy)(void * src_element);			  $/;"	m	struct:dplist	file:	access:public
+dplist::element_free	lib/dplist.c	/^  void (*element_free)(void ** element);$/;"	m	struct:dplist	file:	access:public
+dplist::head	lib/dplist.c	/^  dplist_node_t *head;$/;"	m	struct:dplist	file:	access:public
+dplist_errno	connmgr.c	/^int dplist_errno;$/;"	v
+dplist_errno	datamgr.c	/^int dplist_errno;$/;"	v
+dplist_node	lib/dplist.c	/^struct dplist_node {$/;"	s	file:
+dplist_node::element	lib/dplist.c	/^  void * element;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::next	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node::prev	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+dplist_node_t	lib/dplist.h	/^typedef struct dplist_node dplist_node_t;$/;"	t	typeref:struct:dplist_node
+dplist_t	lib/dplist.h	/^typedef struct dplist dplist_t; \/\/ slist_t is a struct containing at least a head pointer to the start of the list; later function pointers to element_copy, element_compare, element_free, etc. will be added$/;"	t	typeref:struct:dplist
+element	lib/dplist.c	/^  void * element;$/;"	m	struct:dplist_node	file:	access:public
+element_compare	lib/dplist.c	/^  int (*element_compare)(void * x, void * y);$/;"	m	struct:dplist	file:	access:public
+element_copy	lib/dplist.c	/^  void * (*element_copy)(void * src_element);			  $/;"	m	struct:dplist	file:	access:public
+element_free	lib/dplist.c	/^  void (*element_free)(void ** element);$/;"	m	struct:dplist	file:	access:public
+false	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	e	enum:__anon2
+find_sensor_after_timestamp	sensor_db.c	/^int find_sensor_after_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f)$/;"	f	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_after_timestamp	sensor_db.h	/^int find_sensor_after_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_all	sensor_db.c	/^int find_sensor_all(DBCONN * conn, callback_t f)$/;"	f	signature:(DBCONN * conn, callback_t f)
+find_sensor_all	sensor_db.h	/^int find_sensor_all(DBCONN * conn, callback_t f);$/;"	p	signature:(DBCONN * conn, callback_t f)
+find_sensor_by_timestamp	sensor_db.c	/^int find_sensor_by_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f)$/;"	f	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_by_timestamp	sensor_db.h	/^int find_sensor_by_timestamp(DBCONN * conn, sensor_ts_t ts, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_ts_t ts, callback_t f)
+find_sensor_by_value	sensor_db.c	/^int find_sensor_by_value(DBCONN * conn, sensor_value_t value, callback_t f)$/;"	f	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+find_sensor_by_value	sensor_db.h	/^int find_sensor_by_value(DBCONN * conn, sensor_value_t value, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+find_sensor_exceed_value	sensor_db.c	/^int find_sensor_exceed_value(DBCONN * conn, sensor_value_t value, callback_t f)$/;"	f	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+find_sensor_exceed_value	sensor_db.h	/^int find_sensor_exceed_value(DBCONN * conn, sensor_value_t value, callback_t f);$/;"	p	signature:(DBCONN * conn, sensor_value_t value, callback_t f)
+fp_FIFO_w	main.c	/^FILE *fp_FIFO_w;$/;"	v
+handle_new_connection	connmgr.c	/^void handle_new_connection()$/;"	f
+handle_new_connection	connmgr.h	/^void handle_new_connection();$/;"	p	signature:()
+handle_new_data	connmgr.c	/^void handle_new_data(FILE * fp_bin, sbuffer_t *buffer)$/;"	f	signature:(FILE * fp_bin, sbuffer_t *buffer)
+handle_new_data	connmgr.h	/^void handle_new_data(FILE * fp_bin, sbuffer_t *buffer);$/;"	p	signature:(FILE * fp_bin, sbuffer_t *buffer)
+head	lib/dplist.c	/^  dplist_node_t *head;$/;"	m	struct:dplist	file:	access:public
+head	sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+head_mutex	sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+id	config.h	/^	sensor_id_t id;$/;"	m	struct:__anon1	access:public
+index	datamgr.c	/^	int index;$/;"	m	struct:sensor_node	file:	access:public
+init_connection	sensor_db.c	/^DBCONN * init_connection(char clear_up_flag)$/;"	f	signature:(char clear_up_flag)
+init_connection	sensor_db.h	/^DBCONN * init_connection(char clear_up_flag);$/;"	p	signature:(char clear_up_flag)
+insert_sensor	sensor_db.c	/^int insert_sensor(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)$/;"	f	signature:(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)
+insert_sensor	sensor_db.h	/^int insert_sensor(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts);$/;"	p	signature:(DBCONN * conn, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)
+ip_addr	lib/tcpsock.c	/^  char * ip_addr;	\/\/ socket IP address$/;"	m	struct:tcpsock	file:	access:public
+last_modified	datamgr.c	/^	sensor_ts_t last_modified;$/;"	m	struct:sensor_node	file:	access:public
+list	datamgr.c	/^dplist_t *list =NULL;$/;"	v
+main	file_creator.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+main	main.c	/^int main(int argc, const char *argv[])$/;"	f	signature:(int argc, const char *argv[])
+main	sensor_node.c	/^int main( int argc, char *argv[] )$/;"	f	signature:( int argc, char *argv[] )
+next	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+next	sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+port	lib/tcpsock.c	/^  int port;   		\/\/ socket port number$/;"	m	struct:tcpsock	file:	access:public
+prev	lib/dplist.c	/^  dplist_node_t *prev, *next;$/;"	m	struct:dplist_node	file:	access:public
+print_help	sensor_node.c	/^void print_help(void)$/;"	f	signature:(void)
+print_help	sensor_node.c	/^void print_help(void);$/;"	p	file:	signature:(void)
+read_head	sbuffer.c	/^  sbuffer_node_t * read_head;$/;"	m	struct:sbuffer	file:	access:public
+read_only	sbuffer.c	/^	int read_only;$/;"	m	struct:sbuffer	file:	access:public
+readable_cond	sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+readfds	connmgr.c	/^fd_set readfds;$/;"	v
+removable_cond	sbuffer.c	/^	pthread_cond_t removable_cond;$/;"	m	struct:sbuffer	file:	access:public
+room_id	datamgr.c	/^	room_id_t room_id;$/;"	m	struct:sensor_node	file:	access:public
+room_id	file_creator.c	/^uint16_t room_id[NUM_SENSORS] = {1,2,3,4,11,12,13,14};$/;"	v
+room_id_t	config.h	/^typedef uint16_t room_id_t;$/;"	t
+sbuffer	sbuffer.c	/^struct sbuffer {$/;"	s	file:
+sbuffer::head	sbuffer.c	/^  sbuffer_node_t * head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::head_mutex	sbuffer.c	/^	pthread_mutex_t head_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::read_head	sbuffer.c	/^  sbuffer_node_t * read_head;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::read_only	sbuffer.c	/^	int read_only;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::readable_cond	sbuffer.c	/^	pthread_cond_t readable_cond;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::removable_cond	sbuffer.c	/^	pthread_cond_t removable_cond;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail	sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer::tail_mutex	sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+sbuffer_data	config.h	/^struct sbuffer_data{$/;"	s
+sbuffer_data::sensor_data	config.h	/^	sensor_data_t sensor_data;$/;"	m	struct:sbuffer_data	access:public
+sbuffer_data_t	sbuffer.h	/^typedef struct sbuffer_data sbuffer_data_t;$/;"	t	typeref:struct:sbuffer_data
+sbuffer_free	sbuffer.c	/^int sbuffer_free(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_free	sbuffer.h	/^int sbuffer_free(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_init	sbuffer.c	/^int sbuffer_init(sbuffer_t ** buffer)$/;"	f	signature:(sbuffer_t ** buffer)
+sbuffer_init	sbuffer.h	/^int sbuffer_init(sbuffer_t ** buffer);$/;"	p	signature:(sbuffer_t ** buffer)
+sbuffer_insert	sbuffer.c	/^int sbuffer_insert(sbuffer_t * buffer, sbuffer_data_t * data)$/;"	f	signature:(sbuffer_t * buffer, sbuffer_data_t * data)
+sbuffer_insert	sbuffer.h	/^int sbuffer_insert(sbuffer_t * buffer, sbuffer_data_t * data);$/;"	p	signature:(sbuffer_t * buffer, sbuffer_data_t * data)
+sbuffer_node	sbuffer.c	/^typedef struct sbuffer_node {$/;"	s	file:
+sbuffer_node::data	sbuffer.c	/^  sbuffer_data_t data;$/;"	m	struct:sbuffer_node	file:	access:public
+sbuffer_node::next	sbuffer.c	/^  struct sbuffer_node * next;$/;"	m	struct:sbuffer_node	typeref:struct:sbuffer_node::sbuffer_node	file:	access:public
+sbuffer_node_t	sbuffer.c	/^} sbuffer_node_t;$/;"	t	typeref:struct:sbuffer_node	file:
+sbuffer_remove	sbuffer.c	/^int sbuffer_remove(sbuffer_t * buffer,sbuffer_data_t * data, int timeout, int read_only)$/;"	f	signature:(sbuffer_t * buffer,sbuffer_data_t * data, int timeout, int read_only)
+sbuffer_remove	sbuffer.h	/^int sbuffer_remove(sbuffer_t * buffer,sbuffer_data_t * data, int timeout, int read_only);$/;"	p	signature:(sbuffer_t * buffer,sbuffer_data_t * data, int timeout, int read_only)
+sbuffer_t	sbuffer.h	/^typedef struct sbuffer sbuffer_t;$/;"	t	typeref:struct:sbuffer
+sd	lib/tcpsock.c	/^  int sd;		\/\/ socket descriptor$/;"	m	struct:tcpsock	file:	access:public
+sensor_data	config.h	/^	sensor_data_t sensor_data;$/;"	m	struct:sbuffer_data	access:public
+sensor_data_t	config.h	/^} sensor_data_t;$/;"	t	typeref:struct:__anon1
+sensor_id	connmgr.c	/^	sensor_id_t sensor_id;$/;"	m	struct:connection	file:	access:public
+sensor_id	datamgr.c	/^	sensor_id_t sensor_id;$/;"	m	struct:sensor_node	file:	access:public
+sensor_id	file_creator.c	/^uint16_t sensor_id[NUM_SENSORS] = {15,21,37,49,112,129,132,142};$/;"	v
+sensor_id_t	config.h	/^typedef uint16_t sensor_id_t;$/;"	t
+sensor_node	datamgr.c	/^struct sensor_node{$/;"	s	file:
+sensor_node::buffer	datamgr.c	/^	sensor_value_t buffer[RUN_AVG_LENGTH];$/;"	m	struct:sensor_node	file:	access:public
+sensor_node::buffer_size	datamgr.c	/^	int buffer_size;$/;"	m	struct:sensor_node	file:	access:public
+sensor_node::index	datamgr.c	/^	int index;$/;"	m	struct:sensor_node	file:	access:public
+sensor_node::last_modified	datamgr.c	/^	sensor_ts_t last_modified;$/;"	m	struct:sensor_node	file:	access:public
+sensor_node::room_id	datamgr.c	/^	room_id_t room_id;$/;"	m	struct:sensor_node	file:	access:public
+sensor_node::sensor_id	datamgr.c	/^	sensor_id_t sensor_id;$/;"	m	struct:sensor_node	file:	access:public
+sensor_node_t	datamgr.h	/^typedef struct sensor_node sensor_node_t;$/;"	t	typeref:struct:sensor_node
+sensor_temperature	file_creator.c	/^double sensor_temperature[NUM_SENSORS] = {15,17,18,19,20,23,24,25}; \/\/ starting temperatures$/;"	v
+sensor_ts_t	config.h	/^typedef time_t sensor_ts_t;         \/\/ UTC timestamp as returned by time() - notice that the size of time_t is different on 32\/64 bit machine$/;"	t
+sensor_value_t	config.h	/^typedef double sensor_value_t;     $/;"	t
+server	connmgr.c	/^tcpsock_t * server, * client;$/;"	v
+storagemgr	main.c	/^void *storagemgr(void *arg)$/;"	f	signature:(void *arg)
+storagemgr	main.c	/^void *storagemgr(void *arg);$/;"	p	file:	signature:(void *arg)
+storagemgr_parse_sensor_data	sensor_db.c	/^int storagemgr_parse_sensor_data(DBCONN * conn, sbuffer_t **sbuffer)$/;"	f	signature:(DBCONN * conn, sbuffer_t **sbuffer)
+storagemgr_parse_sensor_data	sensor_db.h	/^int storagemgr_parse_sensor_data(DBCONN * conn, sbuffer_t **sbuffer);$/;"	p	signature:(DBCONN * conn, sbuffer_t **sbuffer)
+tail	sbuffer.c	/^  sbuffer_node_t * tail;$/;"	m	struct:sbuffer	file:	access:public
+tail_mutex	sbuffer.c	/^	pthread_mutex_t tail_mutex;$/;"	m	struct:sbuffer	file:	access:public
+tcp_active_open	lib/tcpsock.c	/^int tcp_active_open(tcpsock_t ** sock, int remote_port, char * remote_ip)$/;"	f	signature:(tcpsock_t ** sock, int remote_port, char * remote_ip)
+tcp_active_open	lib/tcpsock.h	/^int tcp_active_open(tcpsock_t ** socket, int remote_port, char * remote_ip);$/;"	p	signature:(tcpsock_t ** socket, int remote_port, char * remote_ip)
+tcp_close	lib/tcpsock.c	/^int tcp_close(tcpsock_t ** socket)$/;"	f	signature:(tcpsock_t ** socket)
+tcp_close	lib/tcpsock.h	/^int tcp_close(tcpsock_t ** socket); $/;"	p	signature:(tcpsock_t ** socket)
+tcp_get_ip_addr	lib/tcpsock.c	/^int tcp_get_ip_addr( tcpsock_t * socket, char ** ip_addr)$/;"	f	signature:( tcpsock_t * socket, char ** ip_addr)
+tcp_get_ip_addr	lib/tcpsock.h	/^int tcp_get_ip_addr( tcpsock_t * socket, char ** ip_addr);$/;"	p	signature:( tcpsock_t * socket, char ** ip_addr)
+tcp_get_port	lib/tcpsock.c	/^int tcp_get_port(tcpsock_t * socket, int * port)$/;"	f	signature:(tcpsock_t * socket, int * port)
+tcp_get_port	lib/tcpsock.h	/^int tcp_get_port(tcpsock_t * socket, int * port); $/;"	p	signature:(tcpsock_t * socket, int * port)
+tcp_get_sd	lib/tcpsock.c	/^int tcp_get_sd(tcpsock_t * socket, int * sd)$/;"	f	signature:(tcpsock_t * socket, int * sd)
+tcp_get_sd	lib/tcpsock.h	/^int tcp_get_sd(tcpsock_t * socket, int * sd); $/;"	p	signature:(tcpsock_t * socket, int * sd)
+tcp_passive_open	lib/tcpsock.c	/^int tcp_passive_open(tcpsock_t ** sock, int port)$/;"	f	signature:(tcpsock_t ** sock, int port)
+tcp_passive_open	lib/tcpsock.h	/^int tcp_passive_open(tcpsock_t ** socket, int port);$/;"	p	signature:(tcpsock_t ** socket, int port)
+tcp_receive	lib/tcpsock.c	/^int tcp_receive (tcpsock_t * socket, void * buffer, int * buf_size)$/;"	f	signature:(tcpsock_t * socket, void * buffer, int * buf_size)
+tcp_receive	lib/tcpsock.h	/^int tcp_receive (tcpsock_t * socket, void * buffer, int * buf_size);$/;"	p	signature:(tcpsock_t * socket, void * buffer, int * buf_size)
+tcp_send	lib/tcpsock.c	/^int tcp_send(tcpsock_t * socket, void * buffer, int * buf_size )$/;"	f	signature:(tcpsock_t * socket, void * buffer, int * buf_size )
+tcp_send	lib/tcpsock.h	/^int tcp_send(tcpsock_t * socket, void * buffer, int * buf_size );$/;"	p	signature:(tcpsock_t * socket, void * buffer, int * buf_size )
+tcp_sock_create	lib/tcpsock.c	/^static tcpsock_t * tcp_sock_create()$/;"	f	file:
+tcp_sock_create	lib/tcpsock.c	/^static tcpsock_t * tcp_sock_create();  $/;"	p	file:
+tcp_wait_for_connection	lib/tcpsock.c	/^int tcp_wait_for_connection(tcpsock_t * socket, tcpsock_t ** new_socket) $/;"	f	signature:(tcpsock_t * socket, tcpsock_t ** new_socket)
+tcp_wait_for_connection	lib/tcpsock.h	/^int tcp_wait_for_connection(tcpsock_t * socket, tcpsock_t ** new_socket); $/;"	p	signature:(tcpsock_t * socket, tcpsock_t ** new_socket)
+tcpsock	lib/tcpsock.c	/^struct tcpsock {$/;"	s	file:
+tcpsock::cookie	lib/tcpsock.c	/^  long cookie;		\/\/ if the socket is bound, cookie should be equal to MAGIC_COOKIE$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::ip_addr	lib/tcpsock.c	/^  char * ip_addr;	\/\/ socket IP address$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::port	lib/tcpsock.c	/^  int port;   		\/\/ socket port number$/;"	m	struct:tcpsock	file:	access:public
+tcpsock::sd	lib/tcpsock.c	/^  int sd;		\/\/ socket descriptor$/;"	m	struct:tcpsock	file:	access:public
+tcpsock_t	lib/tcpsock.h	/^typedef struct tcpsock tcpsock_t;$/;"	t	typeref:struct:tcpsock
+timestamp	connmgr.c	/^	time_t timestamp;$/;"	m	struct:connection	file:	access:public
+true	lib/dplist.h	/^typedef enum {false, true} bool; \/\/ or use C99 #include <stdbool.h> $/;"	e	enum:__anon2
+ts	config.h	/^	sensor_ts_t ts;$/;"	m	struct:__anon1	access:public
+value	config.h	/^	sensor_value_t value;$/;"	m	struct:__anon1	access:public
+write_data_to_file	connmgr.c	/^void write_data_to_file(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)$/;"	f	signature:(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)
+write_data_to_file	connmgr.h	/^void write_data_to_file(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts);$/;"	p	signature:(FILE *fp_bin, sensor_id_t id, sensor_value_t value, sensor_ts_t ts)
